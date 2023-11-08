@@ -1,1 +1,21 @@
-dsa
+zadanie 1
+1        <font> CSS formatowanie tekstu
+2        <center> CSS wysrodkownie elementów
+3        <strike> <del> html5 CSS przekreslanie tekstu
+4        <applet> <object> (ATRYBUT TYPE)
+5        <basefont> CSS zmiana rozmiaru czcionki
+6        <big> CSS zmiana rozmiaru tekstu
+7        <frame> <iframe> (osadzenie wartosci)
+8        <frameset> CSS I javascript jako zmiana ramek
+9        <noframe> bez obsługi ramek dodaj tekst
+10       
+
+Zadanie 2
+-wersja 5 upraszczza zapis znacznikow jezykowych,
+-usunięto przestarzałe instrukcje,
+-rozbudowano formularze,
+
+ zadanie 3
+HTML 4.0 - 
+HTML 4.01 -
+HTml 5.0 -
