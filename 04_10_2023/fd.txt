@@ -8,7 +8,7 @@ zadanie 1
 7        <frame> <iframe> (osadzenie wartosci)
 8        <frameset> CSS I javascript jako zmiana ramek
 9        <noframe> bez obsługi ramek dodaj tekst
-10       
+10       algin atrybut CSS do wyśrodkowania i wyrównania elementow
 
 Zadanie 2
 -wersja 5 upraszczza zapis znacznikow jezykowych,
@@ -16,6 +16,33 @@ Zadanie 2
 -rozbudowano formularze,
 
  zadanie 3
-HTML 4.0 - 
-HTML 4.01 -
-HTml 5.0 -
+HTML 4.0 - https://www.w3.org/TR/html4/
+HTML 4.01 -https://www.w3.org/TR/html401/
+HTml 5.0 -https://html.spec.whatwg.org/multipage/
+
+zdaanie 4
+witryny internetowe-zbiór stron, adresów URL i podstron, które są umieszczone na jednym serwerze i w ramach jednej domeny. 
+portal internetowy-witryna internetowa zawierająca usługi stanowiące „bramę” do Internetu.
+sklep internetowy-serwis internetowy dający możliwość kupowania i sprzedawania produktów przez Internet, jedna z form handlu elektronicznego.
+blog tekstowy-rodzaj witryny internetowej, którą wyróżniają samodzielnie i specyficznie pisane wpisy, które układane są chronologicznie przez autora
+wideoblog-rodzaj bloga internetowego, który zamiast postów tekstowych posługuje się materiałem filmowym.
+
+zadanie 5
+portal internetowy
+zawiera informacje edukacyjne.
+
+zadanie 6
+1 nie poprawny
+2 nie poprawny
+3 poprawny
+4 poprawny
+5 nie poprawny
+
+zadanie 7
+
+zadanie 8
+1A
+2D
+3C
+4C
+5A
