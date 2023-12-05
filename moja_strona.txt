@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN">
+<html lang="pl">
+<head>
+  </head>
+  <body>
+    <header>
+      <h1>Nagłówek Strony</h1>
+      <p>Dane autora: Imie Nazwisko</p>
+    </header>
+ 
+    <section>
+      <h2>Treść Strony</h2>
+    </section>
+  </body>
