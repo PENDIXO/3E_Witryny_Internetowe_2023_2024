@@ -1,0 +1,33 @@
+ZADANIE 1
+1.Strict(strogi)
+2.Transitional(przejsciowy)
+3.Frameset(ramkowy)
+1.<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"  
+  "http://www.w3.org/TR/html4/strict/dtd">
+2.<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN"
+  "http://www.w3.org/TR/html4/loose/dtd">
+3.<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset..EN"
+  "http://www.w3.org/TR/html4/frameset.dtd">
+Roznia sie one przedewszystkim tym pierwszy typ Strict jest skrucony o przestarzałe elementy,Transitional daje nam wiekszą elastyczność, a Frameset jest specyficzny dla stron z wykorzystaniem ramek.
+ZADANIE 2
+<!doctype html>
+ <html lang="pl">
+  <head>
+   <title> moja strona</title>
+  </head>
+  <body>
+   <p>to jest moja strona internetowa</p>
+  <body>
+ </html>
+ZADANIE 3
+1.XHTML 1.1
+2.Przykład do zadania
+3.UTF=8
+podsumowanie
+(6 strona)
+1.C
+2.C
+3.D
+4.A
+5.A
+
