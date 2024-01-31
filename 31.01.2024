@@ -1,0 +1,14 @@
+zadanie 5
+1.type="submit"           Tworzy przycisk do wysyłania formularza                                       <input>
+2.scrolling="no/yes/auto" Kontroluje, czy przewijanie jest dozwolone czy niedozwolone lub automatyczne, <iframe>
+3.maxlength="x"           Określa maksymalna liczbe znaków jakie można wprowadzić do pola tekstowego,   <input>
+4.cellspacing="x"         Określa odstep pomiedzy kolumnami,                                            <table>
+5.id="header"             Reprezentuje identyfikator który pełni funkcje nagłówka,                      <header>
+6.type="text"             Tworzy pole tekstowe,umozliwiajace uzytkownikowi wpisanie jednolitego tekstu, <input>
+zadanie 6
+1. type="text"     Umożliwia wprowadzanie jednolitego tekstu.
+2. type="password" Ukrywa wprowadzane znaki, przydatne do wprowadzenia haseł.
+3. type="checkbox" Tworzy pole wyboru, pozwalajac użytkownikowi zaznaczyć lub odznaczyc opcje,
+4. type="radio"    Pozwala użytkownikowi wybrać jedną opcje spośród wielu,
+5. type="number"   Umożliwia wprowadzenie tylko liczb z opcja uzywania suwaka dla wygodnego wyboru,
+zadanie 7
