@@ -1,0 +1,12 @@
+zadanie 4
+Cecha                                                       HTML 4,                                         HTML 5
+Osadzanie obrazów,                                        <img src="obraz.jpg" alt="Opis">,                <img src="obraz.jpg" alt="Opis">
+Osadzanie dźwięku,                                        <embed src="dzwiek.mp3">,                        <audio src="dzwiek.mp3" controls>
+Osadzanie filmów,                                         <embed src="film.mp4">,                          <video src="film.mp4" controls>
+Obsługa formatów dźwiękowych,                             Zależna od przeglądarki, np. <embed>,            Wbudowane wideo i audio z <audio> i <video>
+Obsługa formatów wideo,                                   Zależna od przeglądarki, np.<embed>,             Wbudowane wideo i audio z <audio> i <video>
+Dodawanie kontrolerów odtwarzania,                        Często wymaga skryptów JavaScript,               Używanie atrybutów controls
+Obsługa wideo w wielu formatach,                          Wymaga dodatkowych wtyczek (np. Flash),          Wbudowane obsługiwanie wielu formatów, z możliwością alternatywnych źródeł (<source>)
+zadanie 5
+Html 4.01 Obsługuje obie przegladrki \
+Html 5 takze obsługuje obydwie przegladarki
