@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Kuby B</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .number-table td {
+            text-align: center;
+        }
+        .large-number {
+            font-size: 2em;
+        }
+        .small-number {
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Przykładowa Struktura HTML</h1>
+
+    <h2>Dane osobowe</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td>Kowalski</td>
+                <td>jan.kowalski@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Anna</td>
+                <td>Nowak</td>
+                <td>anna.nowak@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Pliki</h2>
+    <ul>
+        <li><a href="plik.txt" download>Pobierz plik tekstowy</a></li>
+        <li><a href="plik.mp3" download>Pobierz plik audio</a></li>
+    </ul>
+
+    <h2>Numerki</h2>
+    <table class="number-table">
+        <tr>
+            <td class="large-number">100</td>
+            <td class="small-number">25</td>
+        </tr>
+        <tr>
+            <td class="large-number">200</td>
+            <td class="small-number">50</td>
+        </tr>
+    </table>
+
+</body>
+</html>
