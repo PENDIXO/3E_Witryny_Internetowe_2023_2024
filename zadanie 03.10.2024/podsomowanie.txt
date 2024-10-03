@@ -1,0 +1,15 @@
+Zadanie 1:
+Kaskadowe arkusze stylów oznaczamy jako
+CSS.
+Zadanie 2:
+Znacznik, do którego ma być zastosowany styl, nazywamy
+selektorem.
+Zadanie 3:
+Zapis <body style="background-color: #COCOCO"> określa definicję stylu
+inline.
+Zadanie 4:
+Atrybutu class można użyć w jednym dokumencie HTML
+wielokrotnie.
+Zadanie 5:
+Podczas tworzenia kaskadowych arkuszy stylów, możemy grupować znaczniki w
+klasy.

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alpy</title>
+<style>
+
+        /* Stylowanie nagłówka */
+
+        h1 {
+
+            text-align: center;
+
+            font-family: Arial, sans-serif;
+
+            color: #2E8B57;
+
+        }
+
+        /* Pozycjonowanie obrazka */
+
+        .image-container {
+
+            text-align: center;
+
+            margin-top: 20px;
+
+        }
+
+        /* Stylowanie obrazka */
+
+        img {
+
+            max-width: 100%;
+
+            height: auto;
+
+            border: 2px solid #333;
+
+            border-radius: 10px;
+
+        }
+
+        /* Pozycjonowanie tekstu */
+
+        .content {
+
+            margin: 20px;
+
+            font-family: 'Verdana', sans-serif;
+
+            line-height: 1.6;
+
+            text-align: justify;
+
+        }
+</style>
+</head>
+<body>
+<!-- Nagłówek strony -->
+<h1>Alpy - Górskie Krajobrazy</h1>
+<!-- Obrazek z górami -->
+<div class="image-container">
+<img src="góry.jpg" alt="Krajobraz Alp">
+</div>
+<!-- Treść tekstu z pliku alpy.txt -->
+<div class="content">
+<p>
+<!-- Treść tekstu z pliku alpy.txt -->
+
+            Alpy są jednym z najbardziej malowniczych i spektakularnych pasm górskich w Europie. Rozciągają się przez osiem krajów, w tym Francję, Szwajcarię, Włochy i Austrię, a ich najwyższym szczytem jest Mont Blanc o wysokości 4810 m n.p.m.
+</p>
+<p>
+
+            Te majestatyczne góry są domem dla różnorodnej flory i fauny, a także popularnym miejscem turystycznym, przyciągającym miłośników narciarstwa, wspinaczki i wędrówek górskich. Alpy stanowią również ważne źródło wody dla rzek takich jak Ren i Dunaj.
+</p>
+</div>
+</body>
+</html>
+ 

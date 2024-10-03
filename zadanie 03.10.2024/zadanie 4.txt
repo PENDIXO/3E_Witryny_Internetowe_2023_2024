@@ -1,0 +1,7 @@
+Symbol jednostki,Nazwa jednostki,Rodzaj jednostki,Opis zastosowania
+px,piksel,bezwzględna,Jednostka ta określa liczbę pojedynczych punktów widocznych na ekranie monitora. Piksel jest podstawową jednostką używaną do wyznaczania wielkości elementów w CSS.
+em,em,względna,Jednostka względna zależna od rozmiaru czcionki elementu nadrzędnego. 1em to równowartość bieżącej wielkości czcionki. Stosowana m.in. do określania odstępów i marginesów.
+pc,pica,bezwzględna,Pica jest jednostką typograficzną. 1 pica to 12 punktów (pt), co odpowiada ok. 1/6 cala. Używana głównie w druku.
+pt,punkt,bezwzględna,Punkt to jednostka typograficzna używana w druku. 1 punkt to 1/72 cala. Stosowana głównie do określania wielkości czcionki w druku i w niektórych aplikacjach cyfrowych.
+%,procent,względna,Procentowa jednostka odnosi się do wartości innego elementu, najczęściej wielkości elementu nadrzędnego. Popularna w ustawianiu szerokości, wysokości, odstępów itp.
+in,cal,bezwzględna,Cal (inch) to jednostka bezwzględna. 1 cal to 96 pikseli na ekranie. Używany głównie w druku oraz do określania fizycznych wymiarów elementów na ekranie.

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Szablon Strony</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- Baner -->
+<header class="baner">
+<h1>BANER</h1>
+</header>
+<!-- Menu -->
+<nav class="menu">
+<ul>
+<li><a href="#">Link 1</a></li>
+<li><a href="#">Link 2</a></li>
+<li><a href="#">Link 3</a></li>
+<li><a href="#">Link 4</a></li>
+</ul>
+</nav>
+<!-- Treść strony -->
+<main class="tresc">
+<p>To jest przykładowa treść strony.</p>
+</main>
+<!-- Stopka -->
+<footer class="stopka">
+<p>STOPKA</p>
+</footer>
+</body>
+</html>
+
+CSS
+
+/* Stylowanie ogólne */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f0f0f0;
+}
+/* Baner */
+.baner {
+   background-color: #cc9966;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   font-size: 2em;
+}
+/* Menu */
+.menu {
+   background-color: #32CD32;
+   padding: 10px;
+   text-align: center;
+}
+.menu ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+.menu ul li {
+   display: inline-block;
+   margin: 0 15px;
+}
+.menu ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.2em;
+}
+/* Treść strony */
+.tresc {
+   background-color: #ffff33;
+   padding: 20px;
+   text-align: center;
+   min-height: 300px;
+}
+/* Stopka */
+.stopka {
+   background-color: #990033;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   font-size: 1.2em;
+}

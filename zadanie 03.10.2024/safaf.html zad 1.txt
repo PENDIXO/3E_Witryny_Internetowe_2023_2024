@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<ul class="menu">
+<li><a href="start.html">Start</a></li>
+<li><a href="uczen.html">Dla ucznia</a></li>
+<li><a href="rodzic.html">Dla rodzica</a></li>
+<li><a href="szkola.html">O szkole</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+</body>
+</html>
+
+CSS
+
+/* Ustawienie menu w jednej linii */
+ul.menu {
+   list-style-type: none; /* Usunięcie punktów listy */
+   padding: 0;
+   margin: 0;
+   display: flex; /* Wyświetlanie elementów menu w jednej linii */
+   justify-content: space-around; /* Równomierne rozmieszczenie elementów */
+}
+/* Style dla linków */
+ul.menu li a {
+   text-decoration: none; /* Usunięcie podkreślenia */
+   color: #333333; /* Kolor tekstu */
+   padding: 10px 20px; /* Odstępy wewnętrzne */
+   background-color: #f0f0f0; /* Kolor tła */
+   border-radius: 5px; /* Zaokrąglenie rogów */
+   transition: background-color 0.3s ease; /* Płynne przejście przy najechaniu */
+}
+/* Efekt po najechaniu kursorem */
+ul.menu li a:hover {
+   background-color: #4CAF50; /* Zmiana koloru tła po najechaniu */
+   color: white; /* Zmiana koloru tekstu */
+}
+/* Formatowanie dla odwiedzonych linków */
+ul.menu li a:visited {
+   color: #800080; /* Zmiana koloru dla odwiedzonych linków */
+}
+/* Formatowanie aktywnego elementu */
+ul.menu li a:active {
+   background-color: #333333; /* Kolor tła aktywnego linku */
+   color: white;
+}
