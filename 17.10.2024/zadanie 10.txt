@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient z Półprzezroczystym Obrazem</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh; /* Wysokość całego okna przeglądarki */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                linear-gradient(to bottom right, rgba(63, 81, 181, 0.7), rgba(103, 58, 183, 0.7)), /* Gradient */
+                url('https://via.placeholder.com/1200x800/ff5722/ffffff?text='); /* Półprzezroczysty obraz */
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay; /* Mieszanie tła */
+        }
+
+        .content {
+            color: white;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Półprzezroczyste tło dla tekstu */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Gradient z Obrazem Tła</h1>
+        <p>Eksperymentuj z gradientami i efektami mieszania!</p>
+    </div>
+
+</body>
+</html>

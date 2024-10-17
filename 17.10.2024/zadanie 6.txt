@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mieszanie Tła i Koloru</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Wysokość całego okna przeglądarki */
+            background-color: #f0f0f0; /* Tło strony */
+        }
+
+        .section {
+            width: 80%;
+            height: 300px;
+            margin: 20px 0;
+            background-image: url('https://via.placeholder.com/600x400'); /* Obraz do testów */
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative; /* Umożliwia umieszczenie kolorowego tła */
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            border: 2px solid #ccc; /* Ramka dla lepszej widoczności */
+        }
+
+        .multiply {
+            background-color: rgba(255, 0, 0, 0.5); /* Półprzezroczysty kolor */
+            background-blend-mode: multiply; /* Tryb mieszania */
+        }
+
+        .screen {
+            background-color: rgba(0, 0, 255, 0.5); /* Półprzezroczysty kolor */
+            background-blend-mode: screen; /* Tryb mieszania */
+        }
+
+        .overlay {
+            background-color: rgba(0, 255, 0, 0.5); /* Półprzezroczysty kolor */
+            background-blend-mode: overlay; /* Tryb mieszania */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section multiply">
+        <h2>Tryb Mieszania: Multiply</h2>
+    </div>
+    <div class="section screen">
+        <h2>Tryb Mieszania: Screen</h2>
+    </div>
+    <div class="section overlay">
+        <h2>Tryb Mieszania: Overlay</h2>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obraz Tła dla Strony</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh; /* Wysokość całego okna przeglądarki */
+        }
+
+        .contain {
+            background-image: url('https://via.placeholder.com/600x400'); /* Obraz do testów */
+            background-size: contain; /* Obraz widoczny bez zniekształceń */
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 33vh; /* 1/3 wysokości */
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cover {
+            background-image: url('https://via.placeholder.com/600x400'); /* Obraz do testów */
+            background-size: cover; /* Wypełnia całą stronę */
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 33vh; /* 1/3 wysokości */
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .size-100-50 {
+            background-image: url('https://via.placeholder.com/600x400'); /* Obraz do testów */
+            background-size: 100% 50%; /* 100% szerokości, 50% wysokości */
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 33vh; /* 1/3 wysokości */
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contain">
+        <h1>Background Size: Contain</h1>
+    </div>
+    <div class="cover">
+        <h1>Background Size: Cover</h1>
+    </div>
+    <div class="size-100-50">
+        <h1>Background Size: 100% Width, 50% Height</h1>
+    </div>
+
+</body>
+</html>

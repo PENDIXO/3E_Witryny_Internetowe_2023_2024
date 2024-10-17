@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona z Kolorami Tła</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #003366; /* ciemnoniebieski */
+            color: white; /* kolor tekstu */
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            background-color: #90ee90; /* jasnozielony */
+            color: #333; /* ciemniejszy kolor tekstu dla kontrastu */
+            padding: 20px;
+        }
+        footer {
+            background-color: #d3d3d3; /* jasnoszary */
+            color: #333; /* ciemniejszy kolor tekstu */
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <main>
+        <h2>Main Content</h2>
+        <p>tekst</p>
+    </main>
+    <footer>
+        <p>17. 10. 2024</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obraz Tła</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .banner {
+            height: 300px; /* wysokość banera */
+            color: white; /* kolor tekstu */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 20px; /* odstęp między sekcjami */
+        }
+
+        .repeat-x {
+            background-image: url('https://via.placeholder.com/150x100'); /* zamień na swój obraz */
+            background-repeat: repeat-x; /* powtarza się tylko w poziomie */
+            background-color: #007BFF; /* kolor tła w przypadku problemu */
+        }
+
+        .repeat-y {
+            background-image: url('https://via.placeholder.com/100x150'); /* zamień na swój obraz */
+            background-repeat: repeat-y; /* powtarza się tylko w pionie */
+            background-color: #28A745; /* kolor tła w przypadku problemu */
+        }
+
+        .no-repeat {
+            background-image: url('https://via.placeholder.com/300x150'); /* zamień na swój obraz */
+            background-repeat: no-repeat; /* nie powtarza się wcale */
+            background-size: cover; /* dopasowuje obraz do rozmiaru elementu */
+            background-color: #DC3545; /* kolor tła w przypadku problemu */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner repeat-x">
+        <h1>Powtarzanie w poziomie</h1>
+    </div>
+    <div class="banner repeat-y">
+        <h1>Powtarzanie w pionie</h1>
+    </div>
+    <div class="banner no-repeat">
+        <h1>Bez powtarzania</h1>
+    </div>
+
+</body>
+</html>

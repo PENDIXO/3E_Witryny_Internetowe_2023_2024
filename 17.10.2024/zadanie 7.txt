@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skrócona Notacja Background</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Wysokość całego okna przeglądarki */
+        }
+
+        .full-properties {
+            width: 80%;
+            height: 300px;
+            margin: 20px 0;
+            background-color: rgba(255, 255, 255, 0.5); /* Kolor tła */
+            background-image: url('https://via.placeholder.com/600x400'); /* Obraz tła */
+            background-position: center; /* Pozycja obrazu */
+            background-repeat: no-repeat; /* Nie powtarzaj obrazu */
+            background-size: cover; /* Obraz wypełnia kontener */
+            border: 2px solid #ccc; /* Ramka dla lepszej widoczności */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 24px;
+        }
+
+        .shorthand-properties {
+            width: 80%;
+            height: 300px;
+            margin: 20px 0;
+            background: rgba(255, 255, 255, 0.5) url('https://via.placeholder.com/600x400') center no-repeat; /* Skrócona notacja */
+            background-size: cover; /* Obraz wypełnia kontener */
+            border: 2px solid #ccc; /* Ramka dla lepszej widoczności */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="full-properties">
+        <h2>Pełne Właściwości Tła</h2>
+    </div>
+    
+    <div class="shorthand-properties">
+        <h2>Skrócona Notacja Tła</h2>
+    </div>
+
+</body>
+</html>

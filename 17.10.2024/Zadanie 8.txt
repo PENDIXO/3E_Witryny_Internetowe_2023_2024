@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tło Ograniczone do Różnych Części Elementu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Wysokość całego okna przeglądarki */
+            background-color: #f0f0f0; /* Tło strony */
+        }
+
+        .box {
+            width: 300px;
+            margin: 20px;
+            border: 5px solid #333; /* Obramowanie */
+            padding: 20px; /* Padding */
+            background-color: rgba(100, 150, 250, 0.5); /* Kolor tła */
+            text-align: center; /* Wyrównanie tekstu */
+        }
+
+        .border-box {
+            background-clip: border-box; /* Tło do obramowania */
+        }
+
+        .padding-box {
+            background-clip: padding-box; /* Tło do paddingu */
+        }
+
+        .content-box {
+            background-clip: content-box; /* Tło do treści */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box border-box">
+        <h2>Background Clip: Border Box</h2>
+        <p>Tło obejmuje cały element, w tym obramowanie.</p>
+    </div>
+    
+    <div class="box padding-box">
+        <h2>Background Clip: Padding Box</h2>
+        <p>Tło obejmuje tylko zawartość i padding, nie obramowanie.</p>
+    </div>
+
+    <div class="box content-box">
+        <h2>Background Clip: Content Box</h2>
+        <p>Tło obejmuje tylko zawartość.</p>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tło Ograniczone do Różnych Części Elementu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Wysokość całego okna przeglądarki */
+            background-color: #f0f0f0; /* Tło strony */
+        }
+
+        .box {
+            width: 300px;
+            margin: 20px;
+            border: 5px solid #333; /* Obramowanie */
+            padding: 20px; /* Padding */
+            background-color: rgba(100, 150, 250, 0.5); /* Kolor tła */
+            text-align: center; /* Wyrównanie tekstu */
+        }
+
+        .border-box {
+            background-clip: border-box; /* Tło do obramowania */
+        }
+
+        .padding-box {
+            background-clip: padding-box; /* Tło do paddingu */
+        }
+
+        .content-box {
+            background-clip: content-box; /* Tło do treści */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box border-box">
+        <h2>Background Clip: Border Box</h2>
+        <p>Tło obejmuje cały element, w tym obramowanie.</p>
+    </div>
+    
+    <div class="box padding-box">
+        <h2>Background Clip: Padding Box</h2>
+        <p>Tło obejmuje tylko zawartość i padding, nie obramowanie.</p>
+    </div>
+
+    <div class="box content-box">
+        <h2>Background Clip: Content Box</h2>
+        <p>Tło obejmuje tylko zawartość.</p>
+    </div>
+
+</body>
+</html>

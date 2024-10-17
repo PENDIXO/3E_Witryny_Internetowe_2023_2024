@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pozycjonowanie Obrazu Tła</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh; /* Wysokość całego okna przeglądarki */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .section {
+            width: 80%;
+            height: 200px;
+            margin: 20px 0;
+            background-image: url('https://via.placeholder.com/600x400'); /* Obraz do testów */
+            background-repeat: no-repeat;
+            background-size: contain; /* Ustawiamy rozmiar tła */
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid white; /* Ramka dla lepszej widoczności */
+        }
+
+        .top-left {
+            background-position: top left; /* Lewy górny róg */
+        }
+
+        .center {
+            background-position: center; /* Centrum */
+        }
+
+        .bottom-right {
+            background-position: bottom right; /* Prawy dolny róg */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section top-left">
+        <h2>Obraz w Lewym Górnym Rogu</h2>
+    </div>
+    <div class="section center">
+        <h2>Obraz w Centrum</h2>
+    </div>
+    <div class="section bottom-right">
+        <h2>Obraz w Prawym Dolnym Rogu</h2>
+    </div>
+
+</body>
+</html>
